@@ -5,6 +5,7 @@ html {
 
 body {
 	margin: 0;
+	font-family: Merriweather;
 }
 
 main {
@@ -12,9 +13,9 @@ main {
 }
 
 header {
-	font-family: 'Sigmar One', cursive;
-	background-color: #d98156;
-	color: #b32f52;
+	font-family: 'Merriweather', serif;
+	background-color: #d05c2e;
+	color: #ffffff;
 	padding: .2em 1em 1em 1em;
 	margin: 0em;
 	text-align: center;
@@ -23,13 +24,13 @@ header {
 
 
 h1 {
-	color: #b32f52;
-	font-family: 'Sigmar One', cursive;
+	color: #ffffff;
+	font-family: 'Merriweather', serif;
 	font-weight: bold;
 	font-size: 3rem;
 	font-style: italic;
 	text-decoration: none;
-	font-family: 'Sigmar One', cursive;
+	font-family: 'Merriweather', serif;
 	line-height:1.5;
 	padding: 0em 1em 0em 1em;
 	text-align: center;
@@ -37,43 +38,33 @@ h1 {
 
 
 h2 {
-	color: #d98156;
+	color: #ffffff;
 	background-color: #d98156;
-	font-family: 'Sigmar One', cursive;
+	font-family: 'Merriweather', serif;
 	font-weight: bold;
 	font-size: 2rem;
 	font-style: italic;
 	text-decoration: none;
 	line-height:1.5;
-	text-align: left;
+	text-align: center;
 	padding: 1em 0em 1em 0em;
 	border-top: 3px solid #ffe524;
 }
 
-h3 {
-	color: #b32f52;
-	font-family: 'Sigmar One', cursive;
-	font-weight: bold;
-	font-size: 1.5rem;
-	font-style: italic;
-	text-decoration: none;
-	font-family: 'Sigmar One', cursive;
-	line-height:1.5;
-	text-align: left;
-}
+
 
 nav {
 	font-weight: normal;
 	color: white;
-	font-family: "Georgia";
-	background-color: #ffe524;
+	font-family: 'Merriweather', serif;
+	background-color: #d05c2e;
 	text-align: center;
 	padding: 0em;}
 
 
 
 nav li {
-	font-family: 'Georgia';
+	font-family: 'Merriweather', serif;
 	text-align: center;
 	margin: 0;
 	border: none;
@@ -84,7 +75,7 @@ nav li {
 nav a{
 	padding: .5em .5em .5em .5em;
 	border-radius: 7px;
-	background-color: #b2a215;
+	background-color: #d05c2e;
 	color: #fff;
 	text-decoration: none;
 	font-weight: normal;
@@ -96,7 +87,7 @@ p {
 	font-weight: normal;
 	font-size: 1rem;
 	text-decoration: none;
-	font-family: Georgia;
+	font-family: 'Merriweather', serif;;
 }
 
 
@@ -117,16 +108,16 @@ figcaption {
 	font-weight: normal;
 	font-size: 1rem;
 	text-decoration: none;
-	font-family: Georgia;
+	font-family: 'Merriweather', serif;;
 
 }
 
-dl {
+li {
 	line-height:1.5;
 	font-weight: bold;
 	font-size: 1rem;
 	text-decoration: none;
-	font-family: Georgia;
+	font-family: 'Merriweather', serif;;
 	text-align: left;
 }
 
@@ -139,20 +130,22 @@ p {
 
 
 a:hover {
-	background-color: #cc3865;
+	background-color: #a93f35;
 }
 
-.cite {
-	text-align: center;
-	font-family: 'Georgia';
-	color: #b2a215;
+.inset {
+	float: right;
+	width: 35%;
+	margin-right: 15px;
+}
+
+
+
+.clear-it {
+	clear: right;
 	}
 
-.blockquote {
-	text-align: center;
-	font-family: 'Georgia';
-	color: #b2a215;
-	}
+
 
 
 em {
