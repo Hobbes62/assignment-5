@@ -155,6 +155,8 @@ li {
 p {
 	clear: left;}
 
+
+
 .p2 {
 	clear: left;}
 
@@ -163,11 +165,24 @@ a:hover {
 	background-color: #a93f35;
 }
 
+.grains {
+	float:left;
+	width: 35%;
+	margin-right: 15px;
+	margin-bottom: 15px;
+
+}
+
 .inset {
 	float: right;
 	width: 35%;
 	margin-right: 15px;
 	clear: left;
+}
+.clear-it{
+	float:right;
+	width:35%;
+	margin-right: 15px;
 }
 
 .graphics {
@@ -191,6 +206,7 @@ a:hover {
 	float: left;
 	width: 25%;
 	margin-right: 15px;
+
 }
 
 .rice {
@@ -199,15 +215,16 @@ a:hover {
 	width: 50%;
 	display: inline-block;
 	margin: 0;
-	padding; 0
+	padding: 0;
 }
 
-.oats {	clear:left;
+.oats {
 	float: right;
 	width: 50%;
 	display: inline-block;
 	margin: 0;
- padding: 0;}
+ padding: 0;
+}
 
 
 .corn {
@@ -223,7 +240,6 @@ a:hover {
 
 .famous {
 	 text-align: center;
-	 background-color: #d05c2e;
 	 color: white;
 }
 
@@ -256,3 +272,8 @@ overflow: hidden;
 background: #d98156;
 margin: 0em;
 clear: right;}
+
+.text {
+list-style-type: none;
+margin: 0;
+margin-top: 1em;}
